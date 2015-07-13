@@ -18,9 +18,9 @@ class ProjWidget extends Widget{
         parent::init();
         $api = new GitHubApi;
 
-        $token = new MyToken('833e3c356b24acecf75b52aa815ab48c82ad21ef');
-        $api->setToken($token);
-        $api->getToken();
+        //$token = new MyToken('833e3c356b24acecf75b52aa815ab48c82ad21ef');
+        //$api->setToken($token);
+        //$api->getToken();
 
      // project's info http://developer.github.com/v3/repos/#get
         $this->response_proj = $api->get('/repos/:owner/:repo',

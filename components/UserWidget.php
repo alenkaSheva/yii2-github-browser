@@ -15,9 +15,9 @@ class UserWidget extends Widget{
     public function init (){
         parent::init();
         $api = new GitHubApi;
-        $token = new MyToken('833e3c356b24acecf75b52aa815ab48c82ad21ef');
-        $api->setToken($token);
-        $api->getToken();
+        //$token = new MyToken('833e3c356b24acecf75b52aa815ab48c82ad21ef');
+        //$api->setToken($token);
+        //$api->getToken();
 
      // contributors' info http://developer.github.com/v3/users/#get-a-single-user
         $this->user = $api->get('/users/:username',
