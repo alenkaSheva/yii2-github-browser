@@ -13,7 +13,7 @@ The minimum requirement by this project template that your Web server supports P
 VIRTUAL HOST CONFIGURATION
 ---------------------------
 
-1)	C:\Windows\System32\drivers\etc
+1)	C:\Windows\System32\drivers\etc\hosts
     add lines:
 
 ~~~
@@ -22,7 +22,7 @@ VIRTUAL HOST CONFIGURATION
 ~~~
 
 
-2)	For your local server must change httpd-vhosts.conf
+2)	For your local server must change httpd-vhosts.conf.
     For example in my case find
     C:\wamp\bin\apache\apache2.4.9\conf\extra\httpd-vhosts.conf
     and add lines:
@@ -48,7 +48,7 @@ INSTALLATION
 ### Step 1 - install APP from an Archive File
 
 Click «Download ZIP» on https://github.com/alenkasun/yii2-github-browser and unzip in local site
-…\ your-name-site \, so you must receive the next structure in local site root::
+…\your-name-site\, so you must receive the next structure in local site root::
 
 ~~~
   assets/             contains assets definition
