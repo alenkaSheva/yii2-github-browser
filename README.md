@@ -47,8 +47,8 @@ INSTALLATION
 
 ### Step 1 - install APP from an Archive File
 
-Click «Download ZIP» on https://github.com/alenkasun/yii2-github-browser and unzip in local site …\ your-name-site \,
-so you must receive the next structure in local site root::
+Click «Download ZIP» on https://github.com/alenkasun/yii2-github-browser and unzip in local site
+…\ your-name-site \, so you must receive the next structure in local site root::
 
 ~~~
   assets/             contains assets definition
@@ -72,15 +72,17 @@ If you do not have [Composer](http://getcomposer.org/), you may install it by fo
 at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 
 Install folder VENDOR with all dependency libs via Copmoser:
- open cmd.exe in site root (shirt + command from context menu) and perform:
+open cmd.exe in site root (shirt + command from context menu) and perform:
 
-      - if composer installs globally:
+      - if composer was installed globally:
+
 ~~~
         composer self-update
         composer install
 ~~~
 
       - else:
+
 ~~~
         php composer.phar self-update
         php composer.phar install
